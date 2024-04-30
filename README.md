@@ -53,7 +53,7 @@ Classe responsável por realizar os testes da classe Management.
 ## Estrutura do projeto
 O projeto está estruturado da seguinte maneira:
 
-![Métodos Swagger](![image](https://github.com/JhonnyFspDev/projeto-tdd-desafio/assets/150201090/3e01e779-7f17-473e-817c-bffc33798b35)
-)
+![Estrutura_Projeto](Images/projetoTDD.png)
+
 
 
