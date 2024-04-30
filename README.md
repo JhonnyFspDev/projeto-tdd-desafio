@@ -46,9 +46,9 @@ Classe responsável por realizar os testes da classe Management.
 
 | Classe               | Método de teste       | Resultado esperado do teste
 |----------------------|-----------------------|----------------------------------------------------------------------------------------------------------------|
-| TestWorkerManagement | RegisterWorker        | Ao passar um instância de um Worker, regitra essa instância e deve retornar que a ListWorker não esta vazia.   |
-| TestWorkerManagement | RemoveWorker          | Ao realizar um registro, remove o mesmo e verifica se o registro existe na ListWorker.                         |
-| TestWorkerManagement | ListWorker            | Ao realizar um registro, adiciona ele numa lista e verifica se a lista não está vazia.                         |
+| TestWorkerManagement | RegisterWorker        | Ao passar um instância de um Worker, registra essa instância e deve retornar se esse registra está contido na ListWorker.   |
+| TestWorkerManagement | RemoveWorker          | Ao realizar um registro, remove o mesmo e verifica se o registro existe na ListWorker.                                      |
+| TestWorkerManagement | ListWorker            | Ao realizar um registro, adiciona ele numa lista e verifica se a lista não está vazia.                                       | 
 
 ## Estrutura do projeto
 O projeto está estruturado da seguinte maneira:
