@@ -28,7 +28,7 @@ namespace TestWorkerManagement
             _worker.Register(register);
 
             //Assert
-            Assert.NotEmpty(_worker.ListWorker);
+            Assert.Contains(_worker.ListWorker, x => x.ListWorker.Contains(register));
         }
 
         [Fact]
@@ -47,7 +47,7 @@ namespace TestWorkerManagement
 
             _worker.Remove(register);
             //Assert
-            Assert.Empty(_worker.Workers());
+            Assert.DoesNotContain(_worker.ListWorker, x => x.ListWorker.Contains(register));
         }
 
         [Fact]
